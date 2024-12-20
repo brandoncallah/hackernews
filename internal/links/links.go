@@ -1,10 +1,9 @@
 package links
 
 import (
+	database "github.com/brandoncallah/hackernews/internal/pkg/db/mysql"
+	"github.com/brandoncallah/hackernews/internal/users"
 	"log"
-
-	database "github.com/glyphack/graphlq-golang/internal/pkg/db/mysql"
-	"github.com/glyphack/graphlq-golang/internal/users"
 )
 
 // #1
